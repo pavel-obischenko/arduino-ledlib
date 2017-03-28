@@ -1,5 +1,6 @@
 # Arduino RGB Led Library
 
+```c++
 #include "ledlib/Ledlib.h"
 using namespace ledlib;
 
