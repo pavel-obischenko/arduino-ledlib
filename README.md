@@ -3,7 +3,7 @@
 ### Include the library
 
 ```c++
-#include "ledlib/Ledlib.h"
+#include "arduino-ledlib/Ledlib.h"
 using namespace ledlib;
 ```
 
