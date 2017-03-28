@@ -37,7 +37,7 @@ Initialise the led object with hue, saturation and brightness
 
 ```c++
 void setup() {
-	led.setHSBColor(LED_RED_HUE, LED_SATURATION, LED_BRIGHTNESS);
+    led.setHSBColor(LED_RED_HUE, LED_SATURATION, LED_BRIGHTNESS);
 }
 ```
 To smooth animation don't forgen to call Ledlib::update() after each loop cycle or after any delays in your code
