@@ -1,13 +1,13 @@
 # Arduino RGB Led Library
 
-### Include the library
+#### Include the library
 
 ```c++
 #include "arduino-ledlib/Ledlib.h"
 using namespace ledlib;
 ```
 
-### Define needed constants
+#### Define needed constants
 
 ```c++
 #define LED_RED_PIN         11
@@ -27,20 +27,20 @@ using namespace ledlib;
 #define LED_BRIGHTNESS      255
 ```
 
-### Declaire and construct the RGBLed object
+#### Declaire and construct the RGBLed object
 
 ```c++
 RGBLed led(LED_RED_PIN, LED_GREEN_PIN, LED_BLUE_PIN, kLedModeAnalog, LED_ANIMATION_SPEED);
 ```
 
-### Initialise the led object with hue, saturation and brightness
+#### Initialise the led object with hue, saturation and brightness
 
 ```c++
 void setup() {
     led.setHSBColor(LED_RED_HUE, LED_SATURATION, LED_BRIGHTNESS);
 }
 ```
-### To smooth animation don't forget to call Ledlib::update() after each loop cycle or after any delays in your code
+#### To smooth animation don't forget to call Ledlib::update() after each loop cycle or after any delays in your code
 
 ```c++
 void loop() {
